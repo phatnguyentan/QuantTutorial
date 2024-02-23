@@ -1,0 +1,31 @@
+Start                     2004-08-19 00:00:00
+End                       2013-03-01 00:00:00
+Duration                   3116 days 00:00:00
+Exposure Time [%]                   46.368715
+Equity Final [$]                  30230.17904
+Equity Peak [$]                   30333.49904
+Return [%]                          202.30179
+Buy & Hold Return [%]              703.458242
+Return (Ann.) [%]                   13.858263
+Volatility (Ann.) [%]               28.993191
+Sharpe Ratio                         0.477983
+Sortino Ratio                        0.864735
+Calmar Ratio                         0.237892
+Max. Drawdown [%]                  -58.254472
+Avg. Drawdown [%]                   -3.405462
+Max. Drawdown Duration     1369 days 00:00:00
+Avg. Drawdown Duration       45 days 00:00:00
+# Trades                                   20
+Win Rate [%]                             75.0
+Best Trade [%]                      29.169992
+Worst Trade [%]                    -27.916325
+Avg. Trade [%]                       5.317736
+Max. Trade Duration         208 days 00:00:00
+Avg. Trade Duration          83 days 00:00:00
+Profit Factor                        2.832748
+Expectancy [%]                       6.371539
+SQN                                  2.068799
+_strategy                 RsiOscillator(up...
+_equity_curve                             ...
+_trades                       Size  EntryB...
+dtype: object
