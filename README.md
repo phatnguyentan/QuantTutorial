@@ -11,6 +11,10 @@ https://greyhoundanalytics.com/blog/backtestingpy-a-complete-quickstart-guide/
 Custom Indicators In Backtesting.py - Python Deep Dive
 https://www.youtube.com/watch?v=xljQpeYQYkI
 
+# Tutorial 3
+Stop Loss 
+https://www.youtube.com/watch?v=_R-X7yFxweI&t=11s
+
 # Tutorial Backlog
 https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
