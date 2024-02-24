@@ -8,9 +8,11 @@ https://www.youtube.com/watch?v=e4ytbIm2Xg0&t=2565s
 https://greyhoundanalytics.com/blog/backtestingpy-a-complete-quickstart-guide/
 
 # Tutorial 2
+Custom Indicators In Backtesting.py - Python Deep Dive
 https://www.youtube.com/watch?v=xljQpeYQYkI
 
 # Tutorial Backlog
+https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
 https://github.com/letianzj/QuantResearch
 https://www.youtube.com/watch?v=ndPIS61ybJM&list=PLXrNVMjRZUJjhXD5i278c73uGanp3VJQW&index=1
