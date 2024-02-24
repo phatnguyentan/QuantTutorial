@@ -18,6 +18,10 @@ https://www.youtube.com/watch?v=_R-X7yFxweI&t=11s
 # Tutorial 4
 https://www.youtube.com/watch?v=Kgr8JjWX0zk&t=7s
 
+# Tutorial 5
+Backtest Validation in Python (Fooled By Randomness)
+https://www.youtube.com/watch?v=lXJclKmQR-k&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=5
+
 # Tutorial Backlog
 https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
