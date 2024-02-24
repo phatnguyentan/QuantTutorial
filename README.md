@@ -15,6 +15,9 @@ https://www.youtube.com/watch?v=xljQpeYQYkI
 Stop Loss 
 https://www.youtube.com/watch?v=_R-X7yFxweI&t=11s
 
+# Tutorial 4
+https://www.youtube.com/watch?v=Kgr8JjWX0zk&t=7s
+
 # Tutorial Backlog
 https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
@@ -25,3 +28,14 @@ https://github.com/LastAncientOne/Stock_Analysis_For_Quant/tree/master
 https://github.com/wangzhe3224/awesome-systematic-trading?tab=readme-ov-file#backtest--live-trading
 
 https://www.youtube.com/watch?v=eynxyoKgpng&t=198s
+
+## Algorithmic Trading Strategy in Python
+https://www.youtube.com/watch?v=FEDBsbTFG1o
+
+## Algorithmic Trading Strategy Using Three Moving Averages & Python
+https://www.youtube.com/watch?v=rO_cqa4x60o
+
+## Dollar Cost Averaging Strategy Explained using Python Backtesting (BackTrader)
+https://www.youtube.com/watch?v=NSyli1E53Fk
+
+
