@@ -1,4 +1,3 @@
-import datetime
 import pandas_ta as ta
 import pandas as pd
 
@@ -6,12 +5,6 @@ from backtesting import Backtest
 from backtesting import Strategy
 from backtesting.lib import crossover
 from backtesting.test import GOOG
-
-def optim_func(series):
-    if series['# Trades'] < 10:
-        return -1
-    else:
-        return series['Equity Final [$]']/series['Exposure Time [%]']
 
 class RsiOscillator(Strategy):
 

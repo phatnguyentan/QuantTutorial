@@ -22,6 +22,14 @@ https://www.youtube.com/watch?v=Kgr8JjWX0zk&t=7s
 Backtest Validation in Python (Fooled By Randomness)
 https://www.youtube.com/watch?v=lXJclKmQR-k&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=5
 
+# Tutorial 6
+Multi-threaded Backtesting in Python
+https://www.youtube.com/watch?v=tFALYBVd_Z4&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=9
+
+# Tutorial 7
+Walk Forward Optimization in Python with Backtesting.py
+https://www.youtube.com/watch?v=9m987swadQU&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=7
+
 # Tutorial Backlog
 https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
