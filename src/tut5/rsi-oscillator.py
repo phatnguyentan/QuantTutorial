@@ -9,7 +9,7 @@ from backtesting.lib import crossover
 import os
 
 df = pd.read_csv(
-    os.path.join(os.path.dirname(__file__), "BTCUSDT-1m-2024-01.csv"),
+    os.path.join(os.path.abspath(''), 'data', "BTCUSDT-1m-2024-01.csv"),
     usecols = [0,1,2,3,4],
     names = ["Date", "Open", "High", "Low","Close"]
 )

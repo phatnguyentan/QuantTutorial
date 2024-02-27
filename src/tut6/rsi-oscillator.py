@@ -28,9 +28,8 @@ class RsiOscillator(Strategy):
             self.buy()
 
 def do_backtest(filename):
-    print(filename)
     data = pd.read_csv(
-        f"{os.path.join(os.path.dirname(__file__), 'data', filename)}",
+        f"{os.path.join(os.path.abspath(''), 'data', filename)}",
         names=[
             "OpenTime",
             "Open",
@@ -55,7 +54,7 @@ def do_backtest(filename):
     return (sym, stats["Return [%]"])
 
 if __name__ == "__main__":
-    data_path = os.path.join(os.path.dirname(__file__), "data")
+    data_path = os.path.join(os.path.abspath(''), 'data')
     with Pool() as p:
         results = p.map(do_backtest, os.listdir(data_path))
     print(results)
