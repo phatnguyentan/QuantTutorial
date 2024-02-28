@@ -27,22 +27,28 @@ Multi-threaded Backtesting in Python
 https://www.youtube.com/watch?v=tFALYBVd_Z4&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=9
 
 # Tutorial 7
-Walk Forward Optimization in Python with Backtesting.py
+## Walk Forward Optimization in Python with Backtesting.py
 https://www.youtube.com/watch?v=9m987swadQU&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=7
 
+# Tutorial 8
+## Harmonic Pattern Recognition With Python
+https://www.youtube.com/watch?v=rO_cqa4x60o
+https://github.com/neurotrader888/TechnicalAnalysisAutomation/blob/main/harmonic_patterns.py
+
+## Algorithmic Trading – Machine Learning & Quant Strategies Course with Python
+https://www.youtube.com/watch?v=9Y3yaoi9rUQ
+
 # Tutorial Backlog
-https://greyhoundanalytics.com/tags/backtesting.py/
 https://github.com/je-suis-tm/quant-trading
 https://github.com/letianzj/QuantResearch
-https://www.youtube.com/watch?v=ndPIS61ybJM&list=PLXrNVMjRZUJjhXD5i278c73uGanp3VJQW&index=1
-https://www.youtube.com/watch?v=9Y3yaoi9rUQ
+
 https://github.com/LastAncientOne/Stock_Analysis_For_Quant/tree/master
 https://github.com/wangzhe3224/awesome-systematic-trading?tab=readme-ov-file#backtest--live-trading
 
+## The Only Technical Analysis Video You Will Ever Need... (Full Course: Beginner To Advanced)
 https://www.youtube.com/watch?v=eynxyoKgpng&t=198s
 
-## Algorithmic Trading Strategy in Python
-https://www.youtube.com/watch?v=FEDBsbTFG1o
+
 
 ## Algorithmic Trading Strategy Using Three Moving Averages & Python
 https://www.youtube.com/watch?v=rO_cqa4x60o
@@ -50,4 +56,5 @@ https://www.youtube.com/watch?v=rO_cqa4x60o
 ## Dollar Cost Averaging Strategy Explained using Python Backtesting (BackTrader)
 https://www.youtube.com/watch?v=NSyli1E53Fk
 
-
+## Refs
+https://greyhoundanalytics.com/tags/backtesting.py/
