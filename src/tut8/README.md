@@ -1,20 +1,32 @@
 # Golden Ratio
 ```
 1.618
-0,1,1,2,3,5,8,13,221,34,55,89,144,233,377
+0,1,1,2,3,5,8,13,221,34,55,89,144,233,377,610,987
 3/2 = 1.5
 8/5 = 1.6
 55/34 = 1.617
 377/233 = 1.618
+233/377 = 0.618
+377/610 = 0.618
 ```
-# Fibonacci Retracement
+# Other Ratio
 ```
-Given 2 sides form a triangle without a base (bottom side) /\
-Height is a perpendicular line from the origin to the top of an edge  |\ or |/
+610/233 = 2.618
+987/377 = 2.618
+
+233/610 = 0.382
+987/377 = 0.382
+```
+# Ratio Calculate
+```
+Given 2 consecutive price movement form a triangle without a base (bottom side) /\
+Height is a perpendicular line from the origin to the top of a price movement  |\ or |/.
+We call it AB and BC
+Ratio = height_bc/height_ab
 Example 
-height1 =  233
-height2 =  377
-ratio = 233/377 = 0.618
+height_ab =  233
+height_bc =  377
+Ratio = 377/233 = 1.618
 ```
 ## 3 Must-Know Algorithms for Automating Chart Pattern Trading in Python
 https://www.youtube.com/watch?v=X31hyMhB-3s
@@ -22,6 +34,107 @@ https://www.youtube.com/watch?v=X31hyMhB-3s
 # Direction Change Algorithm
 Finds tops/bottoms after price has retraced by a given percentage. Time between tops/bottoms is not consider.
 Harmonic Pattern  do not consider the time between tops/bottoms
+
+# Harmonic pattern
+The ULTIMATE Beginner's Guide to HARMONIC PATTERNS
+https://www.youtube.com/watch?v=ir3XB3CGdYU
+Harmonic pattern is price action pattern where a sequence of price movements follow well-defined ranges of Fibonacci ratios. When consecutive price movements respect these ratios, price enters the Price Reversal Zone, which is a zone with higher probability of reversal due to the convergence of several Fibonacci ratios
+
+https://www.vietcap.com.vn/kien-thuc/mo-hinh-harmonic-la-gi-nhung-mo-hinh-harmonic-pho-bien-va-cach-giao-dich
+
+## Bullish Bat (Double Top)
+XABCD /\/\
+AB/XA = 38.2% - 50%
+BC/AB = 38.2% - 88.6%
+CD/BC = 161.8% - 261.8%
+AD/XA = 88.6%
+After D trend will up /
+
+## Bearish Bat (Double Bottom)
+XABCD \/\/
+AB/XA = 38.2% - 50%
+BC/AB = 38.2% - 88.6%
+CD/BC = 161.8% - 261.8%
+AD/XA = 88.6%
+After D trend will down \
+
+## Bullish/Bearish ALT Bat
+XABCD 
+AB/XA = 38.2% 
+BC/AB = 38.2% - 88.6%
+CD/BC = 200% - 361.8%
+AD/XA = 113%
+After D trend will up / or down \
+
+## Bullish/Bearish Butterfly
+XABCD
+AB/XA = 78.6%
+BC/AB = 38.2% - 88.6%
+CD/BC = 161.8% - 224%
+AD/XA = 88.6%
+After D trend will up / or down \
+
+## Bullish/Bearish Crab
+XABCD
+AB/XA = 38.2% - 61.8%
+BC/AB = 38.2% - 88.6%
+CD/BC = 261.8% - 361.8%
+AD/XA = 161.8%
+After D trend will up / or down \
+
+## Bullish/Bearish Deep Crab
+XABCD
+AB/XA = 88.6%
+BC/AB = 38.2% - 88.6%
+CD/BC = 200% - 361.8%
+AD/XA = 161.8%
+After D trend will up / or down \
+
+## Bullish/Bearish Gartley
+XABCD
+AB/XA = 61.8%
+BC/AB = 38.2% - 88.6%
+CD/BC = 113% - 161.8%
+AD/XA = 78.6%
+After D trend will up / or down \
+
+## Bullish/Bearish Shark
+XABCD
+AB/XA = N/A
+BC/AB = 113% - 161.8%
+CD/BC = 161.8% - 224%
+AD/XA = 88.6% - 113%
+After D trend will up / or down \
+
+## Bullish/Bearish Cypher
+XABCD
+AB/XA = 38.2% - 61.8%
+BC/AB = 113% - 141%
+CD/BC = 127% - 200%
+AD/XA = 78.6%
+After D trend will up / or down \
+
+## Bullish/Bearish 5-0
+0XABCD
+AB/XA = 113% - 161.8%
+BC/AB = 161.8% - 224%
+CD/BC = 50%
+AD/XA = N/A
+After D trend will up / or down \
+
+## Bullish/Bearish AB=CD
+ABCD
+BC/AB = 38.2% - 88.6%
+CD/BC = 113% - 261.8%
+After D trend will up / or down \
+
+## Bullish/Bearish Three Drives
+0XABCD \/\/\
+XA/0X = N/A
+AB/XA = 127% - 161.8%
+CD/BC = 127% - 161.8%
+AD/XA = N/A
+After D trend will up / or down \
 
 # Coding
 extremes
@@ -34,12 +147,16 @@ conf_i
 2137     1986  45879.63     1     1193.63       1.737984
 [217 rows x 5 columns]
 
+```
 extremes['seg_height']
 conf_i
 222          NaN
 560       594.23
 1513     3192.02
 Name: seg_height, Length: 217, dtype: float64
+formula: height2 - height1 
+```
+
 
 extremes['retrace_ratio']
 conf_i
@@ -81,6 +198,9 @@ Step i = 1593
 extremes.index[extreme_i + 1] = 1593
 entry_taken = 0
 extreme_i = 3
+
+# D_price
+Current high or current low depend on type
 
 #
 dc_retrace
