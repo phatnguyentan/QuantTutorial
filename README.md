@@ -30,7 +30,15 @@ https://www.youtube.com/watch?v=tFALYBVd_Z4&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9
 ## Walk Forward Optimization in Python with Backtesting.py
 https://www.youtube.com/watch?v=9m987swadQU&list=PLnSVMZC68_e48lA4aRYL1yHYZ9nEq9AiH&index=7
 
+
 # Tutorial 8
+## Code 10 Technical Trading Indicators with Python
+https://www.youtube.com/watch?v=vT0-eLOw5Uk
+
+# Tutorial 8
+https://www.youtube.com/@Algovibes
+
+# Tutorial 999
 ## Harmonic Pattern Recognition With Python
 https://www.youtube.com/watch?v=rO_cqa4x60o
 https://github.com/neurotrader888/TechnicalAnalysisAutomation/blob/main/harmonic_patterns.py
